@@ -9,7 +9,7 @@ packages = [
   { include = "brain_games" },
 ]
 classifiers = [
-	Topic :: Utilities,
+  "Topic :: Utilities",
 ]
 
 [tool.poetry.scripts]
