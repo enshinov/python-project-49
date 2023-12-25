@@ -5,7 +5,6 @@ from .cli import welcome_user
 
 
 def game(game_task, get_question_answer):
-    print("Welcome to the Brain Games!")
     user_name = welcome_user()
     print(game_task)
     rounds_count = 4
