@@ -17,6 +17,6 @@ def game(game_task, get_question_answer):
         else:
             error_text = ' is wrong answer :(. Correct answer was '
             print(f"'{user_answer}'{error_text}'{correct_answer}'.")
-            print(f"Let's try again, {user_name}")
+            print(f"Let's try again, {user_name}!")
             return
     print(f"Congratulations, {user_name}!")
