@@ -1,10 +1,10 @@
 #! /usr/bin/env python3
 
-from ..common import game
+from ..cli import welcome_user
 
 
-def main(game_task, get_question_answer):
-    game()
+def main():
+    welcome_user()
 
 
 if __name__ == '__main__':
